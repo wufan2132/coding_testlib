@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution9_10.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="My_str_fun.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution9_14.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="meituan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution9_17.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution9_22.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_arrary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_string.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_listnode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_divide.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_sort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_dp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_find.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Solution9_10.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="My_str_fun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution9_14.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="meituan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution9_17.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution9_22.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution_arrary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution_string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution_listnode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution_divide.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution_sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution_dp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool_find.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
