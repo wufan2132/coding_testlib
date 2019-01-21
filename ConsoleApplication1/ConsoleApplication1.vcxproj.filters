@@ -13,102 +13,150 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\tree">
+      <UniqueIdentifier>{41036dee-7e73-4ddb-b0a1-a95b4665e367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\listnode">
+      <UniqueIdentifier>{3b4ea744-0861-4032-b547-963fcc84c589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\sort">
+      <UniqueIdentifier>{9198bca2-3ea6-4fbe-9078-6b1baee33e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\listnode">
+      <UniqueIdentifier>{ab0ea243-6f3a-4164-8681-23d56b078a35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sort">
+      <UniqueIdentifier>{51f09a7a-6669-4ec6-aaa8-d2d0020315d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tree">
+      <UniqueIdentifier>{c58bf488-c7d8-4310-addb-996017348f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\graph">
+      <UniqueIdentifier>{6c3a6284-4f0c-4ef6-9224-e47a009944fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\graph">
+      <UniqueIdentifier>{769c9501-0ea1-464f-baba-60cd9ae2640d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\other">
+      <UniqueIdentifier>{f6234314-694f-4d07-a58f-157841ddb02b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tool">
+      <UniqueIdentifier>{e3ba3672-9bbf-4684-9b8d-8bdad4f1a743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\array">
+      <UniqueIdentifier>{f476e8a4-c7a3-4bdf-8987-10633ad0b075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\dp&amp;divide">
+      <UniqueIdentifier>{daed24aa-693e-4f7f-ba21-d2064547b141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tool">
+      <UniqueIdentifier>{4868f0f8-25a8-48b3-bbfa-72d43a72ec83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\other">
+      <UniqueIdentifier>{ef2cbc03-99b9-4699-867f-adab8a6b331f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\array">
+      <UniqueIdentifier>{b3ae1e56-2cbf-4d29-a2cb-a5eb8944fa8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\dp&amp;divide">
+      <UniqueIdentifier>{7cbbd635-b985-47b6-91ce-aeb6b31ea4c1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Solution9_10.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="My_str_fun.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\other</Filter>
     </ClCompile>
     <ClCompile Include="Solution9_14.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="meituan.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\other</Filter>
     </ClCompile>
     <ClCompile Include="Solution9_17.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\other</Filter>
     </ClCompile>
     <ClCompile Include="Solution9_22.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\other</Filter>
     </ClCompile>
-    <ClCompile Include="misc.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution_arrary.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution_string.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution_tree.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution_listnode.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution_divide.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution_sort.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution_dp.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="My_str_fun.cpp">
+      <Filter>源文件\array</Filter>
     </ClCompile>
     <ClCompile Include="Tool_find.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_tree.cpp">
+      <Filter>源文件\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_string.cpp">
+      <Filter>源文件\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_sort.cpp">
+      <Filter>源文件\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_listnode.cpp">
+      <Filter>源文件\listnode</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_dp.cpp">
+      <Filter>源文件\dp&amp;divide</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_divide.cpp">
+      <Filter>源文件\dp&amp;divide</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_arrary.cpp">
+      <Filter>源文件\array</Filter>
+    </ClCompile>
+    <ClCompile Include="meituan.cpp">
+      <Filter>源文件\other</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>源文件\tool</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Solution9_10.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="My_str_fun.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Solution9_14.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="meituan.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Solution9_17.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Solution9_22.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="misc.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Solution_arrary.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Solution_string.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="Solution_tree.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\tree</Filter>
     </ClInclude>
     <ClInclude Include="Solution_listnode.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Solution_divide.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\listnode</Filter>
     </ClInclude>
     <ClInclude Include="Solution_sort.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="meituan.h">
+      <Filter>头文件\other</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="My_str_fun.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution9_10.h">
+      <Filter>头文件\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution9_14.h">
+      <Filter>头文件\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution9_17.h">
+      <Filter>头文件\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution9_22.h">
+      <Filter>头文件\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution_arrary.h">
+      <Filter>头文件\array</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution_divide.h">
+      <Filter>头文件\dp&amp;divide</Filter>
     </ClInclude>
     <ClInclude Include="Solution_dp.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\dp&amp;divide</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution_string.h">
+      <Filter>头文件\array</Filter>
     </ClInclude>
     <ClInclude Include="Tool_find.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\tool</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
