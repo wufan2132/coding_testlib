@@ -4,14 +4,8 @@
 #include<stack>
 #include<unordered_set>
 #include<algorithm>
+#include "base_tree.h"
 #include "My_str_fun.h"
-using namespace std;
-struct TreeNode {
-     int val;
-     TreeNode *left;
-     TreeNode *right;
-     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- };
 
 
 class Solution_tree
@@ -27,20 +21,6 @@ public:
 		for (string s : My_str_fun::str_spilt(str, { ',' }))
 			nums.push_back(stoi(s));
 		return nums;
-	}
-
-
-
-	//构造树
-	TreeNode* make_tree(vector<string> str_vec)
-	{
-		for (string str : str_vec)
-		{
-			if (str!="null")
-				TreeNode* node =  new TreeNode(atoi(str.c_str()));
-
-		}
-
 	}
 
 	//二叉树的最大深度

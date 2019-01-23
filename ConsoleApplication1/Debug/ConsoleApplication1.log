@@ -1,25 +1,8 @@
-﻿生成启动时间为 2019/1/8 12:00:20。
+﻿生成启动时间为 2019/1/22 16:43:03。
      1>项目“E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Solution_arrary.cpp main.cpp
-         Solution_arrary.cpp
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_arrary.h(28): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_arrary.h(47): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_arrary.h(58): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_arrary.h(73): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_arrary.h(127): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_arrary.h(128): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_arrary.h(155): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_arrary.h(158): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_arrary.h(162): warning C4018: “>”: 有符号/无符号不匹配
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_arrary.h(197): warning C4018: “<=”: 有符号/无符号不匹配
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_arrary.h(252): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_arrary.h(258): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_arrary.h(266): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_arrary.h(274): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_arrary.h(353): warning C4018: “>=”: 有符号/无符号不匹配
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_arrary.h(360): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_arrary.h(370): warning C4018: “<”: 有符号/无符号不匹配
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Solution_graph.cpp main.cpp
+         Solution_graph.cpp
          正在生成代码...
          正在编译...
          main.cpp
@@ -53,10 +36,12 @@
      1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_arrary.h(370): warning C4018: “<”: 有符号/无符号不匹配
      1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_string.h(86): warning C4018: “<”: 有符号/无符号不匹配
      1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_string.h(89): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_listnode.h(157): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_listnode.h(154): warning C4018: “<”: 有符号/无符号不匹配
          正在生成代码...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\main.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\Debug\coding_testlib.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\Debug\coding_testlib.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\Debug\coding_testlib.lib" /MACHINE:X86 Debug\base_listnode.obj
+         Debug\base_tree.obj
+         Debug\main.obj
          Debug\meituan.obj
          Debug\misc.obj
          Debug\My_str_fun.obj
@@ -67,14 +52,15 @@
          Debug\Solution_arrary.obj
          Debug\Solution_divide.obj
          Debug\Solution_dp.obj
+         Debug\Solution_graph.obj
          Debug\Solution_listnode.obj
          Debug\Solution_sort.obj
          Debug\Solution_string.obj
          Debug\Solution_tree.obj
          Debug\Tool_find.obj
-         ConsoleApplication1.vcxproj -> E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\Debug\ConsoleApplication1.exe
+         ConsoleApplication1.vcxproj -> E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\Debug\coding_testlib.exe
      1>已完成生成项目“E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:02.86
+已用时间 00:00:02.51

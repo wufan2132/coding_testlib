@@ -111,6 +111,15 @@
     <ClCompile Include="misc.cpp">
       <Filter>源文件\tool</Filter>
     </ClCompile>
+    <ClCompile Include="Solution_graph.cpp">
+      <Filter>源文件\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="base_listnode.cpp">
+      <Filter>源文件\listnode</Filter>
+    </ClCompile>
+    <ClCompile Include="base_tree.cpp">
+      <Filter>源文件\tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution_tree.h">
@@ -157,6 +166,15 @@
     </ClInclude>
     <ClInclude Include="Tool_find.h">
       <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="base_listnode.h">
+      <Filter>头文件\listnode</Filter>
+    </ClInclude>
+    <ClInclude Include="base_tree.h">
+      <Filter>头文件\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution_graph.h">
+      <Filter>头文件\graph</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

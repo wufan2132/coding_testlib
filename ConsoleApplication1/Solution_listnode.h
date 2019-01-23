@@ -4,13 +4,10 @@
 #include<stack>
 #include<algorithm>
 #include "My_str_fun.h"
+#include "base_listnode.h"
 #include<unordered_set>
 using namespace std;
-struct ListNode {
-	int val;
-	ListNode *next;
-	ListNode(int x) : val(x), next(NULL) {}
-};
+
 
 class Solution_listnode
 {
