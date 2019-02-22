@@ -9,11 +9,14 @@
 #include"Solution_dp.h"
 #include"Solution_graph.h"
 #include"base_tree.h"
+#include"base_graph.h"
 #include"misc.h"
 #include"meituan.h"
 #include"My_str_fun.h"
 #include <time.h>
 #include <vector>
+#include <queue>
+#include <functional> //优先队列
 using namespace std;
 
 
@@ -21,9 +24,16 @@ using namespace std;
 
 
 int main(){
-	Solution_graph solve;
-	int c = solve.movingCount(1000, 3,2);
-	cout << c << endl;
+	priority_queue<int, vector<int>, greater<int>	> que;
+	string str;
+	while (cin >> str){
+		if (str == "p"){
+			cout << que.top() << endl;
+			que.pop();
+		}
+		else
+			que.push(stoi(str));
+	}
 	system("pause");
 }
 

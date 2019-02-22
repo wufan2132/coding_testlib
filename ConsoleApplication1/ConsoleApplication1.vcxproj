@@ -79,6 +79,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="base_graph.cpp" />
     <ClCompile Include="base_listnode.cpp" />
     <ClCompile Include="base_tree.cpp" />
     <ClCompile Include="main.cpp" />
@@ -100,6 +101,7 @@
     <ClCompile Include="Tool_find.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="base_graph.h" />
     <ClInclude Include="base_listnode.h" />
     <ClInclude Include="base_tree.h" />
     <ClInclude Include="meituan.h" />

@@ -12,12 +12,20 @@ public:
 	Solution_arrary();
 	~Solution_arrary();
 
-	vector<int> get_input(){ // [1,2,3,4]->vector<num>
+	vector<int> get_input(){// 1 2 3 4 ->vector<num>
+		vector<int> nums;
+		string s;
+		while(cin >> s)
+		nums.push_back(stoi(s));
+		return nums;
+	}
+	//
+	vector<int> get_input(char c){ // [1,2,3,4]->vector<num>
 		string str;
 		vector<int> nums;
 		cin >> str;
 		str = str.substr(1, str.size() - 2);
-		for (string s : My_str_fun::str_spilt(str, { ',' }))
+		for (string s : My_str_fun::str_spilt(str, { c }))
 			nums.push_back(stoi(s));
 		return nums;
 	}

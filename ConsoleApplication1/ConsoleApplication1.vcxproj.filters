@@ -120,6 +120,9 @@
     <ClCompile Include="base_tree.cpp">
       <Filter>源文件\tree</Filter>
     </ClCompile>
+    <ClCompile Include="base_graph.cpp">
+      <Filter>源文件\graph</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution_tree.h">
@@ -174,6 +177,9 @@
       <Filter>头文件\tree</Filter>
     </ClInclude>
     <ClInclude Include="Solution_graph.h">
+      <Filter>头文件\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="base_graph.h">
       <Filter>头文件\graph</Filter>
     </ClInclude>
   </ItemGroup>
