@@ -61,6 +61,9 @@
     <Filter Include="源文件\dp&amp;divide">
       <UniqueIdentifier>{7cbbd635-b985-47b6-91ce-aeb6b31ea4c1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Design_pattern">
+      <UniqueIdentifier>{00c7cba3-b251-4f36-a87b-92839608c7c4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -123,6 +126,9 @@
     <ClCompile Include="base_graph.cpp">
       <Filter>源文件\graph</Filter>
     </ClCompile>
+    <ClCompile Include="base_sort.cpp">
+      <Filter>源文件\sort</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution_tree.h">
@@ -181,6 +187,12 @@
     </ClInclude>
     <ClInclude Include="base_graph.h">
       <Filter>头文件\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Design_pattren.h">
+      <Filter>头文件\Design_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sort.h">
+      <Filter>头文件\sort</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -13,6 +13,7 @@
 #include"misc.h"
 #include"meituan.h"
 #include"My_str_fun.h"
+#include"Design_pattren.h"
 #include <time.h>
 #include <vector>
 #include <queue>
@@ -24,17 +25,13 @@ using namespace std;
 
 
 int main(){
-	priority_queue<int, vector<int>, greater<int>	> que;
-	string str;
-	while (cin >> str){
-		if (str == "p"){
-			cout << que.top() << endl;
-			que.pop();
-		}
-		else
-			que.push(stoi(str));
-	}
-	system("pause");
+	Solution_graph solve;
+	char* matrix = "ABCESFCSADEE";
+	int rows = 3, cols = 4;
+	char* str = "ABCCED";
+	int ret = solve.hasPath(matrix, rows, cols, str);
+	return 0;
+	
 }
 
 

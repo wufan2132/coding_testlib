@@ -1,7 +1,13 @@
-﻿生成启动时间为 2019/2/21 20:35:15。
+﻿生成启动时间为 2019/3/14 11:02:02。
      1>项目“E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt base_graph.cpp base_sort.cpp main.cpp
+         base_sort.cpp
+         正在生成代码...
+         正在编译...
+         base_graph.cpp
+         正在生成代码...
+         正在编译...
          main.cpp
      1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution9_10.h(31): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
      1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution9_14.h(34): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
@@ -34,20 +40,33 @@
      1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_string.h(86): warning C4018: “<”: 有符号/无符号不匹配
      1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_string.h(89): warning C4018: “<”: 有符号/无符号不匹配
      1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_listnode.h(154): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\main.cpp(26): error C2065: “greater”: 未声明的标识符
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\main.cpp(26): error C2062: 意外的类型“int”
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\main.cpp(26): error C2143: 语法错误 : 缺少“;”(在“>”的前面)
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\main.cpp(30): error C2065: “que”: 未声明的标识符
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\main.cpp(30): error C2228: “.top”的左边必须有类/结构/联合
-                 类型是“unknown-type”
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\main.cpp(31): error C2065: “que”: 未声明的标识符
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\main.cpp(31): error C2228: “.pop”的左边必须有类/结构/联合
-                 类型是“unknown-type”
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\main.cpp(34): error C2065: “que”: 未声明的标识符
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\main.cpp(34): error C2228: “.push”的左边必须有类/结构/联合
-                 类型是“unknown-type”
-     1>已完成生成项目“E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj”(Build 个目标)的操作 - 失败。
+     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_graph.h(134): warning C4018: “>=”: 有符号/无符号不匹配
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\Debug\coding_testlib.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\Debug\coding_testlib.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\Debug\coding_testlib.lib" /MACHINE:X86 Debug\base_graph.obj
+         Debug\base_listnode.obj
+         Debug\base_sort.obj
+         Debug\base_tree.obj
+         Debug\main.obj
+         Debug\meituan.obj
+         Debug\misc.obj
+         Debug\My_str_fun.obj
+         Debug\Solution9_10.obj
+         Debug\Solution9_14.obj
+         Debug\Solution9_17.obj
+         Debug\Solution9_22.obj
+         Debug\Solution_arrary.obj
+         Debug\Solution_divide.obj
+         Debug\Solution_dp.obj
+         Debug\Solution_graph.obj
+         Debug\Solution_listnode.obj
+         Debug\Solution_sort.obj
+         Debug\Solution_string.obj
+         Debug\Solution_tree.obj
+         Debug\Tool_find.obj
+         ConsoleApplication1.vcxproj -> E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\Debug\coding_testlib.exe
+     1>已完成生成项目“E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj”(Build 个目标)的操作。
 
-生成失败。
+生成成功。
 
-已用时间 00:00:01.01
+已用时间 00:00:04.64

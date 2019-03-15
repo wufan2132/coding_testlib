@@ -81,6 +81,7 @@
   <ItemGroup>
     <ClCompile Include="base_graph.cpp" />
     <ClCompile Include="base_listnode.cpp" />
+    <ClCompile Include="base_sort.cpp" />
     <ClCompile Include="base_tree.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="meituan.cpp" />
@@ -103,7 +104,9 @@
   <ItemGroup>
     <ClInclude Include="base_graph.h" />
     <ClInclude Include="base_listnode.h" />
+    <ClInclude Include="base_sort.h" />
     <ClInclude Include="base_tree.h" />
+    <ClInclude Include="Design_pattren.h" />
     <ClInclude Include="meituan.h" />
     <ClInclude Include="misc.h" />
     <ClInclude Include="My_str_fun.h" />
