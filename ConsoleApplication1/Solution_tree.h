@@ -177,5 +177,38 @@ public:
 			root->right = NULL;
 		return root;
 	}
+
+	//输入两棵二叉树A，B，判断B是不是A的子结构。（ps：我们约定空树不是任意一个树的子结构）
+	bool HasSubtree(TreeNode* pRoot1, TreeNode* pRoot2)
+	{
+		if (!pRoot1) return 0;
+		if (!pRoot2) return 0;
+
+		if (issame(pRoot1, pRoot2))
+			return 1;
+		else if (HasSubtree(pRoot1->left, pRoot2))
+			return 1;
+		else if (HasSubtree(pRoot1->right, pRoot2))
+			return 1;
+		else
+			return 0;
+
+	}
+
+
+	bool issame(TreeNode* pRootA, TreeNode* pRootB){
+		if (pRootB == NULL)
+			return 1;
+		if (pRootA != NULL&&pRootA->val == pRootB->val){
+			int ret = 1;
+			ret &= issame(pRootA->left, pRootB->left);
+			ret &= issame(pRootA->right, pRootB->right);
+			return ret;
+		}
+		else
+			return 0;
+
+	}
+	
 };
 

@@ -5,6 +5,7 @@
 #include <sstream>
 #include "My_str_fun.h"
 #include<hash_set>
+#include<unordered_map>
 using namespace std;
 class Solution_arrary
 {
@@ -311,11 +312,6 @@ private:
 	}
 #pragma endregion
 
-#pragma region MyRegion
-
-#pragma endregion
-
-
 //输入一个正整数数组，把数组里所有数字拼接起来排成一个数，打印能拼接出的所有数字中最小的一个。例如输入数组{ 3，32，321 }，则打印出这三个数字能排成的最小数字为321323
 #pragma region PrintMinNumber
 public:
@@ -422,7 +418,36 @@ private:
 		}
 #pragma endregion
 
-
+//一个数组中只包含0,1, 求使得其中0,1个数相等的最大子数组
+#pragma region 0,1个数相等的最大子数组
+	public:
+		vector<int> maxSonVec01(vector<int> vec){
+			int len = vec.size();
+			vector<int> num(len+1);
+			num[0] = 0;
+			int zeroCnt = 0, oneCnt = 0;
+			for (int i = 0; i < len; i++){
+				if (vec[i])
+					oneCnt++;
+				else
+					zeroCnt++;
+				num[i + 1] = zeroCnt - oneCnt;
+			}
+			//
+			int maxvalue = -1;
+			int maxS = 0, maxE = 0;
+			unordered_map<int, int> map;
+			for (int i = 0; i < len + 1; i++){
+				map.insert(pair<int, int>(num[i], i));
+				if (i - map[num[i]]>maxvalue){
+					maxvalue = i - map[num[i]];
+					maxS = map[num[i]];
+					maxE = i;
+				}
+			}
+			return vector<int>(vec.begin() + maxS, vec.begin() + maxE);
+		}
+#pragma endregion
 };
 //
 //Solution_arrary solution;

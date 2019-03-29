@@ -10,6 +10,7 @@
 #include"Solution_graph.h"
 #include"base_tree.h"
 #include"base_graph.h"
+#include"base_sort.h"
 #include"misc.h"
 #include"meituan.h"
 #include"My_str_fun.h"
@@ -25,13 +26,16 @@ using namespace std;
 
 
 int main(){
-	Solution_graph solve;
-	char* matrix = "ABCESFCSADEE";
-	int rows = 3, cols = 4;
-	char* str = "ABCCED";
-	int ret = solve.hasPath(matrix, rows, cols, str);
+	vector<int> vec;
+	vec.push_back(rand() % 100);
+	for (int n : vec)
+		cout << n << ' ';
+	cout << endl;
+	base_sort::heap_sort(vec);
+	for (int n : vec)
+		cout << n << ' ';
+	cout << endl;
 	return 0;
-	
 }
 
 

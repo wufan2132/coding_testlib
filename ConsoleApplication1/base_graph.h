@@ -187,8 +187,7 @@ public:
 	int printMin(int start, int end ,vector<int>& minPath){
 		int id = end;
 		stack<int> sta;
-		while (true)
-		{
+		while (true){
 			sta.push(id);
 			if (id == start)
 				break;

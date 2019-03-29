@@ -124,6 +124,23 @@
     <ClInclude Include="Solution_tree.h" />
     <ClInclude Include="Tool_find.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\空白项目\空白项目\一条直线将多边形分成面积相同的两块.txt" />
+    <Text Include="..\..\..\空白项目\空白项目\分巧克力.txt" />
+    <Text Include="..\..\..\空白项目\空白项目\包含所有元素的最小子数组.txt" />
+    <Text Include="..\..\..\空白项目\空白项目\地杰斯特拉.txt" />
+    <Text Include="..\..\..\空白项目\空白项目\大数相乘.txt" />
+    <Text Include="..\..\..\空白项目\空白项目\字符串匹配.txt" />
+    <Text Include="..\..\..\空白项目\空白项目\扑克牌比大小.txt" />
+    <Text Include="..\..\..\空白项目\空白项目\最大乘积.txt" />
+    <Text Include="..\..\..\空白项目\空白项目\最短路径.txt" />
+    <Text Include="..\..\..\空白项目\空白项目\最短路径2.txt" />
+    <Text Include="..\..\..\空白项目\空白项目\测试类.txt" />
+    <Text Include="..\..\..\空白项目\空白项目\移动棋子.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\空白项目\空白项目\空白项目.rc" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
