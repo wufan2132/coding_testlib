@@ -17,6 +17,8 @@ a110000011
 100B000101
 11030001b1
 */
+
+#define max(a,b) a>b? a: b
 class base_graph
 {
 public:

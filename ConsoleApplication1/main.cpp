@@ -15,6 +15,7 @@
 #include"meituan.h"
 #include"My_str_fun.h"
 #include"Design_pattren.h"
+#include"MyString.h"
 #include <time.h>
 #include <vector>
 #include <queue>
@@ -24,17 +25,16 @@ using namespace std;
 
 
 
-
 int main(){
-	vector<int> vec;
-	vec.push_back(rand() % 100);
-	for (int n : vec)
-		cout << n << ' ';
-	cout << endl;
-	base_sort::heap_sort(vec);
-	for (int n : vec)
-		cout << n << ' ';
-	cout << endl;
+	MyString str1("functional");
+	MyString str2("queue");
+	MyString str3;
+	str3 = str2 = str1;
+	str1.printf();
+	str2.printf();
+	str3.printf();
+	char* a = new char[0];
+
 	return 0;
 }
 

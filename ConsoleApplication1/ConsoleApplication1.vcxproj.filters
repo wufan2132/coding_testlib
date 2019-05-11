@@ -81,9 +81,6 @@
     <ClCompile Include="Solution9_22.cpp">
       <Filter>源文件\other</Filter>
     </ClCompile>
-    <ClCompile Include="My_str_fun.cpp">
-      <Filter>源文件\array</Filter>
-    </ClCompile>
     <ClCompile Include="Tool_find.cpp">
       <Filter>源文件\tool</Filter>
     </ClCompile>
@@ -128,6 +125,12 @@
     </ClCompile>
     <ClCompile Include="base_sort.cpp">
       <Filter>源文件\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString.cpp">
+      <Filter>源文件\array</Filter>
+    </ClCompile>
+    <ClCompile Include="My_str_fun.cpp">
+      <Filter>源文件\tool</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -193,6 +196,9 @@
     </ClInclude>
     <ClInclude Include="base_sort.h">
       <Filter>头文件\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString.h">
+      <Filter>头文件\array</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

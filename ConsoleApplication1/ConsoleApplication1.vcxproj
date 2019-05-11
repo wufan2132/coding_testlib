@@ -86,6 +86,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="meituan.cpp" />
     <ClCompile Include="misc.cpp" />
+    <ClCompile Include="MyString.cpp" />
     <ClCompile Include="My_str_fun.cpp" />
     <ClCompile Include="Solution9_10.cpp" />
     <ClCompile Include="Solution9_14.cpp" />
@@ -109,6 +110,7 @@
     <ClInclude Include="Design_pattren.h" />
     <ClInclude Include="meituan.h" />
     <ClInclude Include="misc.h" />
+    <ClInclude Include="MyString.h" />
     <ClInclude Include="My_str_fun.h" />
     <ClInclude Include="Solution9_10.h" />
     <ClInclude Include="Solution9_14.h" />

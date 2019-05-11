@@ -1,11 +1,7 @@
-﻿生成启动时间为 2019/3/25 16:49:26。
+﻿生成启动时间为 2019/4/1 14:34:52。
      1>项目“E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Solution_tree.cpp base_sort.cpp base_tree.cpp main.cpp
-         base_tree.cpp
-         base_sort.cpp
-         正在生成代码...
-         正在编译...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
      1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution9_10.h(31): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
      1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution9_14.h(34): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
@@ -42,19 +38,20 @@
      1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_tree.h(206): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
      1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_listnode.h(154): warning C4018: “<”: 有符号/无符号不匹配
      1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_graph.h(134): warning C4018: “>=”: 有符号/无符号不匹配
-         Solution_tree.cpp
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_tree.h(204): warning C4805: “&=”: 在操作中将类型“int”与类型“bool”混合不安全
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_tree.h(205): warning C4805: “&=”: 在操作中将类型“int”与类型“bool”混合不安全
-     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\solution_tree.h(206): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
-         正在生成代码...
+     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\mystring.h(16): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\mystring.h(26): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\mystring.h(39): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\吴凡\学习\leetcode练习代码\solution\consoleapplication1\consoleapplication1\mystring.h(51): warning C4018: “<”: 有符号/无符号不匹配
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\Debug\coding_testlib.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\Debug\coding_testlib.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\Debug\coding_testlib.lib" /MACHINE:X86 Debug\base_graph.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\Debug\coding_testlib.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\Debug\coding_testlib.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\吴凡\学习\LeetCode练习代码\solution\ConsoleApplication1\Debug\coding_testlib.lib" /MACHINE:X86 "Debug\空白项目.res"
+         Debug\base_graph.obj
          Debug\base_listnode.obj
          Debug\base_sort.obj
          Debug\base_tree.obj
          Debug\main.obj
          Debug\meituan.obj
          Debug\misc.obj
+         Debug\MyString.obj
          Debug\My_str_fun.obj
          Debug\Solution9_10.obj
          Debug\Solution9_14.obj
@@ -74,4 +71,4 @@
 
 生成成功。
 
-已用时间 00:00:03.70
+已用时间 00:00:02.66
