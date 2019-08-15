@@ -108,6 +108,7 @@
     <ClInclude Include="base_sort.h" />
     <ClInclude Include="base_tree.h" />
     <ClInclude Include="Design_pattren.h" />
+    <ClInclude Include="math.h" />
     <ClInclude Include="meituan.h" />
     <ClInclude Include="misc.h" />
     <ClInclude Include="MyString.h" />

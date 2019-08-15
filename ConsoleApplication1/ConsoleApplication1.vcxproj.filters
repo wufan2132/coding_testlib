@@ -64,6 +64,9 @@
     <Filter Include="头文件\Design_pattern">
       <UniqueIdentifier>{00c7cba3-b251-4f36-a87b-92839608c7c4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\math">
+      <UniqueIdentifier>{088e3a84-f966-450a-97c1-7b2192485dcc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -199,6 +202,9 @@
     </ClInclude>
     <ClInclude Include="MyString.h">
       <Filter>头文件\array</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>头文件\math</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

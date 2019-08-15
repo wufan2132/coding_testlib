@@ -23,17 +23,37 @@
 using namespace std;
 
 
+//给定一个数字，如果这个数字可以开根号得到一个整数，则开根号
+//不然就减一
+int GetTimes(int n, int c){
+	if (n == 1) return c;
+	int m = 2;
+	while (m*m<n){
+		m++;
+	}
+	if (m == 2)
+		return c + GetTimes(m - 1, n - (m - 1)*(m - 1) );
+	else
+		return c + GetTimes(m - 1, n - (m - 1)*(m - 1)+1);
+}
 
-
+//手写数字
+int HandWriteTimes(int n){
+	stack<int> write_num;
+	while (n){
+		write_num.push(n % 10);
+		n /= 10;
+	}
+	int t_count = 0;
+	//
+	int k;
+	while (!write_num.empty()){
+		k = write_num.top();
+		write_num.pop();
+	}
+}
 int main(){
-	MyString str1("functional");
-	MyString str2("queue");
-	MyString str3;
-	str3 = str2 = str1;
-	str1.printf();
-	str2.printf();
-	str3.printf();
-	char* a = new char[0];
+	cout << GetTimes(11, 0);
 
 	return 0;
 }
